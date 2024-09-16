@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: grid;
+    row-gap: 5px;
+    background-color: #e0dddd;
+    padding: 5px;
+}
+header, main, footer{
+    border-radius: 5px;
+}
+header{
+    height: 5rem;
+    background-color: white;
+}
+main{
+    height: calc(85vh - 5rem);
+    background-color: white;
+}
+footer{
+    height: calc(11vh);
+    background-color: rgb(255, 255, 255);
+}
+h3{
+    color: #2a2a2a;
+}
