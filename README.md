@@ -1,3 +1,5 @@
 # Portifolio
 Personal website
-![portifolio](https://github.com/user-attachments/assets/38a1bb32-6289-4d08-9574-eb867f15f72a)
+
+
+![portifolio](https://github.com/user-attachments/assets/c6c64b03-00d6-4bb3-972f-169a01e9b46d)
