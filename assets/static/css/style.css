@@ -151,6 +151,58 @@ p{
     cursor: pointer;
 }
 
+.projects .cardEcomerce {
+    background-color: white;
+}
+
+
+.projects .cardBank {
+    background-color: #F4F9FF;
+    padding-left: 10px;
+    border-color: #d8d8d8;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    color: #475467;
+}
+
+.projects .cardAuron{
+    background-color: #161622;
+}
+.projects .cardAuron .cardAuronContent{
+    padding-left: 10px;
+    border-color: #363A3D;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #1d1d2c;
+    color: #CDCDE0;
+}
+.projects .cardAuron .cardAuronContent p{
+    color: #CDCDE0;
+}
+
+.card .cardBank p{
+    color: #475467;
+}
+
+.projects .cardCaring{
+    background-color: #131619;
+}
+
+.projects .cardCaring .content{
+    padding-left: 10px;
+    border-color: #363A3D;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: #1A1D21;
+    border-style: solid;
+    color: #ABB8C4;
+}
+
+.card .cardCaring .content p{
+    color: #ABB8C4;
+}
 
 .card .BtnProject{
     height: 50px;
@@ -159,6 +211,35 @@ p{
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #D7D7D7;
+}
+
+.card .BtnProjectBank{
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(90deg, #0179FE, #4893FF);
+}
+.card .BtnProjectBank:hover, .BtnProjectCaring:hover, .BtnProjectAuron:ho{
+    background: linear-gradient(90deg,#fb5555, #fb5555);
+    color: white;
+    cursor: not-allowed;
+    transform: translateY(0px);
+}
+
+
+.card .BtnProjectCaring {
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #24AE7C;
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+    font-weight: bold;
 }
 
 .card a .BtnProject{
@@ -176,6 +257,27 @@ p{
     transform: translateY(0px);
 }
 
+.card a .BtnProjectBank{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+
+.BtnProjectAuron {
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+    font-weight: bold;
+    background: linear-gradient(90deg, #FF8C00, #FFA300);
+}
 
 footer {
     grid-area: footer;
